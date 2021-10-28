@@ -3,9 +3,9 @@ import random
 
 
 def btm(average):
-    tmp = random.normalvariate(average, 0.2)
+    tmp = random.normalvariate(average, 0.1)
     while tmp < average - 1 or 37.5 <= tmp:
-        tmp = random.normalvariate(average, 0.2)
+        tmp = random.normalvariate(average, 0.1)
     return tmp
 
 
